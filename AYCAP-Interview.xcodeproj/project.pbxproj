@@ -14,6 +14,9 @@
 		F2E7F31428497C330043A821 /* AYCAP_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31328497C330043A821 /* AYCAP_InterviewTests.swift */; };
 		F2E7F31E28497C330043A821 /* AYCAP_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31D28497C330043A821 /* AYCAP_InterviewUITests.swift */; };
 		F2E7F32028497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */; };
+		F2E7F32E28497E5C0043A821 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F32D28497E5C0043A821 /* API.swift */; };
+		F2E7F33028497E800043A821 /* APIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F32F28497E800043A821 /* APIExtension.swift */; };
+		F2E7F33228497F010043A821 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F33128497F010043A821 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F2E7F31928497C330043A821 /* AYCAP-InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AYCAP-InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E7F31D28497C330043A821 /* AYCAP_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewUITests.swift; sourceTree = "<group>"; };
 		F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2E7F32D28497E5C0043A821 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F2E7F32F28497E800043A821 /* APIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExtension.swift; sourceTree = "<group>"; };
+		F2E7F33128497F010043A821 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		F2E7F30128497C310043A821 /* AYCAP-Interview */ = {
 			isa = PBXGroup;
 			children = (
+				F2E7F32C28497E4B0043A821 /* Network */,
 				F2E7F30228497C310043A821 /* AYCAP_InterviewApp.swift */,
 				F2E7F30428497C310043A821 /* ContentView.swift */,
 				F2E7F30628497C330043A821 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */,
 			);
 			path = "AYCAP-InterviewUITests";
+			sourceTree = "<group>";
+		};
+		F2E7F32C28497E4B0043A821 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F32D28497E5C0043A821 /* API.swift */,
+				F2E7F32F28497E800043A821 /* APIExtension.swift */,
+				F2E7F33128497F010043A821 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E7F33028497E800043A821 /* APIExtension.swift in Sources */,
 				F2E7F30528497C310043A821 /* ContentView.swift in Sources */,
+				F2E7F33228497F010043A821 /* NetworkManager.swift in Sources */,
+				F2E7F32E28497E5C0043A821 /* API.swift in Sources */,
 				F2E7F30328497C310043A821 /* AYCAP_InterviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
