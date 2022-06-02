@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E7F30328497C310043A821 /* AYCAP_InterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F30228497C310043A821 /* AYCAP_InterviewApp.swift */; };
+		F2E7F30528497C310043A821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F30428497C310043A821 /* ContentView.swift */; };
+		F2E7F30728497C330043A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E7F30628497C330043A821 /* Assets.xcassets */; };
+		F2E7F30A28497C330043A821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E7F30928497C330043A821 /* Preview Assets.xcassets */; };
+		F2E7F31428497C330043A821 /* AYCAP_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31328497C330043A821 /* AYCAP_InterviewTests.swift */; };
+		F2E7F31E28497C330043A821 /* AYCAP_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31D28497C330043A821 /* AYCAP_InterviewUITests.swift */; };
+		F2E7F32028497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E7F31028497C330043A821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E7F2F728497C310043A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E7F2FE28497C310043A821;
+			remoteInfo = "AYCAP-Interview";
+		};
+		F2E7F31A28497C330043A821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E7F2F728497C310043A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E7F2FE28497C310043A821;
+			remoteInfo = "AYCAP-Interview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2E7F2FF28497C310043A821 /* AYCAP-Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AYCAP-Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E7F30228497C310043A821 /* AYCAP_InterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewApp.swift; sourceTree = "<group>"; };
+		F2E7F30428497C310043A821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2E7F30628497C330043A821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E7F30928497C330043A821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2E7F30F28497C330043A821 /* AYCAP-InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AYCAP-InterviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E7F31328497C330043A821 /* AYCAP_InterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewTests.swift; sourceTree = "<group>"; };
+		F2E7F31928497C330043A821 /* AYCAP-InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AYCAP-InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E7F31D28497C330043A821 /* AYCAP_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewUITests.swift; sourceTree = "<group>"; };
+		F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYCAP_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E7F2FC28497C310043A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F30C28497C330043A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F31628497C330043A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E7F2F628497C310043A821 = {
+			isa = PBXGroup;
+			children = (
+				F2E7F30128497C310043A821 /* AYCAP-Interview */,
+				F2E7F31228497C330043A821 /* AYCAP-InterviewTests */,
+				F2E7F31C28497C330043A821 /* AYCAP-InterviewUITests */,
+				F2E7F30028497C310043A821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E7F30028497C310043A821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F2FF28497C310043A821 /* AYCAP-Interview.app */,
+				F2E7F30F28497C330043A821 /* AYCAP-InterviewTests.xctest */,
+				F2E7F31928497C330043A821 /* AYCAP-InterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E7F30128497C310043A821 /* AYCAP-Interview */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F30228497C310043A821 /* AYCAP_InterviewApp.swift */,
+				F2E7F30428497C310043A821 /* ContentView.swift */,
+				F2E7F30628497C330043A821 /* Assets.xcassets */,
+				F2E7F30828497C330043A821 /* Preview Content */,
+			);
+			path = "AYCAP-Interview";
+			sourceTree = "<group>";
+		};
+		F2E7F30828497C330043A821 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F30928497C330043A821 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2E7F31228497C330043A821 /* AYCAP-InterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F31328497C330043A821 /* AYCAP_InterviewTests.swift */,
+			);
+			path = "AYCAP-InterviewTests";
+			sourceTree = "<group>";
+		};
+		F2E7F31C28497C330043A821 /* AYCAP-InterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F31D28497C330043A821 /* AYCAP_InterviewUITests.swift */,
+				F2E7F31F28497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift */,
+			);
+			path = "AYCAP-InterviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E7F2FE28497C310043A821 /* AYCAP-Interview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E7F32328497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-Interview" */;
+			buildPhases = (
+				F2E7F2FB28497C310043A821 /* Sources */,
+				F2E7F2FC28497C310043A821 /* Frameworks */,
+				F2E7F2FD28497C310043A821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AYCAP-Interview";
+			productName = "AYCAP-Interview";
+			productReference = F2E7F2FF28497C310043A821 /* AYCAP-Interview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E7F30E28497C330043A821 /* AYCAP-InterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E7F32628497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-InterviewTests" */;
+			buildPhases = (
+				F2E7F30B28497C330043A821 /* Sources */,
+				F2E7F30C28497C330043A821 /* Frameworks */,
+				F2E7F30D28497C330043A821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E7F31128497C330043A821 /* PBXTargetDependency */,
+			);
+			name = "AYCAP-InterviewTests";
+			productName = "AYCAP-InterviewTests";
+			productReference = F2E7F30F28497C330043A821 /* AYCAP-InterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E7F31828497C330043A821 /* AYCAP-InterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E7F32928497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-InterviewUITests" */;
+			buildPhases = (
+				F2E7F31528497C330043A821 /* Sources */,
+				F2E7F31628497C330043A821 /* Frameworks */,
+				F2E7F31728497C330043A821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E7F31B28497C330043A821 /* PBXTargetDependency */,
+			);
+			name = "AYCAP-InterviewUITests";
+			productName = "AYCAP-InterviewUITests";
+			productReference = F2E7F31928497C330043A821 /* AYCAP-InterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E7F2F728497C310043A821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F2E7F2FE28497C310043A821 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F2E7F30E28497C330043A821 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F2E7F2FE28497C310043A821;
+					};
+					F2E7F31828497C330043A821 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = F2E7F2FE28497C310043A821;
+					};
+				};
+			};
+			buildConfigurationList = F2E7F2FA28497C310043A821 /* Build configuration list for PBXProject "AYCAP-Interview" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E7F2F628497C310043A821;
+			productRefGroup = F2E7F30028497C310043A821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E7F2FE28497C310043A821 /* AYCAP-Interview */,
+				F2E7F30E28497C330043A821 /* AYCAP-InterviewTests */,
+				F2E7F31828497C330043A821 /* AYCAP-InterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E7F2FD28497C310043A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E7F30A28497C330043A821 /* Preview Assets.xcassets in Resources */,
+				F2E7F30728497C330043A821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F30D28497C330043A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F31728497C330043A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E7F2FB28497C310043A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E7F30528497C310043A821 /* ContentView.swift in Sources */,
+				F2E7F30328497C310043A821 /* AYCAP_InterviewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F30B28497C330043A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E7F31428497C330043A821 /* AYCAP_InterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7F31528497C330043A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E7F31E28497C330043A821 /* AYCAP_InterviewUITests.swift in Sources */,
+				F2E7F32028497C330043A821 /* AYCAP_InterviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E7F31128497C330043A821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E7F2FE28497C310043A821 /* AYCAP-Interview */;
+			targetProxy = F2E7F31028497C330043A821 /* PBXContainerItemProxy */;
+		};
+		F2E7F31B28497C330043A821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E7F2FE28497C310043A821 /* AYCAP-Interview */;
+			targetProxy = F2E7F31A28497C330043A821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2E7F32128497C330043A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E7F32228497C330043A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E7F32428497C330043A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AYCAP-Interview/Preview Content\"";
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-Interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E7F32528497C330043A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AYCAP-Interview/Preview Content\"";
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-Interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2E7F32728497C330043A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-InterviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYCAP-Interview.app/AYCAP-Interview";
+			};
+			name = Debug;
+		};
+		F2E7F32828497C330043A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-InterviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYCAP-Interview.app/AYCAP-Interview";
+			};
+			name = Release;
+		};
+		F2E7F32A28497C330043A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-InterviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AYCAP-Interview";
+			};
+			name = Debug;
+		};
+		F2E7F32B28497C330043A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2SNLS6CYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chch.AYCAP-InterviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AYCAP-Interview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E7F2FA28497C310043A821 /* Build configuration list for PBXProject "AYCAP-Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E7F32128497C330043A821 /* Debug */,
+				F2E7F32228497C330043A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E7F32328497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E7F32428497C330043A821 /* Debug */,
+				F2E7F32528497C330043A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E7F32628497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-InterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E7F32728497C330043A821 /* Debug */,
+				F2E7F32828497C330043A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E7F32928497C330043A821 /* Build configuration list for PBXNativeTarget "AYCAP-InterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E7F32A28497C330043A821 /* Debug */,
+				F2E7F32B28497C330043A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E7F2F728497C310043A821 /* Project object */;
+}
