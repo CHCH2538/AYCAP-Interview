@@ -17,6 +17,11 @@
 		F2E7F32E28497E5C0043A821 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F32D28497E5C0043A821 /* API.swift */; };
 		F2E7F33028497E800043A821 /* APIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F32F28497E800043A821 /* APIExtension.swift */; };
 		F2E7F33228497F010043A821 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F33128497F010043A821 /* NetworkManager.swift */; };
+		F2E7F335284982780043A821 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F334284982780043A821 /* Weather.swift */; };
+		F2E7F3372849829F0043A821 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F3362849829F0043A821 /* WeatherDetail.swift */; };
+		F2E7F339284982C10043A821 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F338284982C10043A821 /* WeatherResponse.swift */; };
+		F2E7F33B284982EC0043A821 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F33A284982EC0043A821 /* DailyWeather.swift */; };
+		F2E7F33D2849830C0043A821 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F33C2849830C0043A821 /* Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		F2E7F32D28497E5C0043A821 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F2E7F32F28497E800043A821 /* APIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExtension.swift; sourceTree = "<group>"; };
 		F2E7F33128497F010043A821 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F2E7F334284982780043A821 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F2E7F3362849829F0043A821 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
+		F2E7F338284982C10043A821 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		F2E7F33A284982EC0043A821 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		F2E7F33C2849830C0043A821 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,7 @@
 		F2E7F30128497C310043A821 /* AYCAP-Interview */ = {
 			isa = PBXGroup;
 			children = (
+				F2E7F333284982520043A821 /* Models */,
 				F2E7F32C28497E4B0043A821 /* Network */,
 				F2E7F30228497C310043A821 /* AYCAP_InterviewApp.swift */,
 				F2E7F30428497C310043A821 /* ContentView.swift */,
@@ -142,6 +153,18 @@
 				F2E7F33128497F010043A821 /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F2E7F333284982520043A821 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2E7F334284982780043A821 /* Weather.swift */,
+				F2E7F3362849829F0043A821 /* WeatherDetail.swift */,
+				F2E7F338284982C10043A821 /* WeatherResponse.swift */,
+				F2E7F33A284982EC0043A821 /* DailyWeather.swift */,
+				F2E7F33C2849830C0043A821 /* Temperature.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +299,14 @@
 			files = (
 				F2E7F33028497E800043A821 /* APIExtension.swift in Sources */,
 				F2E7F30528497C310043A821 /* ContentView.swift in Sources */,
+				F2E7F3372849829F0043A821 /* WeatherDetail.swift in Sources */,
 				F2E7F33228497F010043A821 /* NetworkManager.swift in Sources */,
 				F2E7F32E28497E5C0043A821 /* API.swift in Sources */,
+				F2E7F335284982780043A821 /* Weather.swift in Sources */,
 				F2E7F30328497C310043A821 /* AYCAP_InterviewApp.swift in Sources */,
+				F2E7F339284982C10043A821 /* WeatherResponse.swift in Sources */,
+				F2E7F33D2849830C0043A821 /* Temperature.swift in Sources */,
+				F2E7F33B284982EC0043A821 /* DailyWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
