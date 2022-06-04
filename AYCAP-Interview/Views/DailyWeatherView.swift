@@ -12,7 +12,7 @@ struct DailyWeatherView: View {
     @ObservedObject var cityVM: CityViewViewModel
     
     var body: some View {
-        ScrollView(.vertical) {
+        ScrollView(.vertical, showsIndicators: true) {
             VStack(spacing: 1) {
                 
                 Text("\(cityVM.city)")
@@ -25,6 +25,7 @@ struct DailyWeatherView: View {
                 }
             }
         }
+        .padding(.top, 10)
     }
    
     private func dailyCell(weather: DailyWeather) -> some View {
