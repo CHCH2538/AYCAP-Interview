@@ -8,28 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @ObservedObject var cityVM = CityViewViewModel()
     
+    @State var showDailyWeather = false
+    
     var body: some View {
-        ZStack(alignment: .bottom) {
-            VStack(spacing:  0) {
-                SearchBarView(cityVM: cityVM)
-                
-                TabView {
-                    CurrentWeatherView(cityVM: cityVM)
-                        .tabItem{
-                            Image(systemName: "sun.max")
-                            Text("Current")
-                        }
-                    DailyWeatherView(cityVM: cityVM)
-                        .tabItem{
-                            Image(systemName: "eyeglasses")
-                            Text("Daily Forcast")
-                        }
+        NavigationView {
+    
+            ScrollView {
+                VStack(spacing: 70) {
+                    SearchBarView(cityVM: cityVM)
                         
+                    CurrentWeatherView(cityVM: cityVM)
+                }
+                .padding(.top, 20)
+                
+                .navigationTitle("Current Weather")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                                  Button {
+                                    showDailyWeather = true
+                                  } label: {
+                                      Text("Daily Forecast")
+                                  }
+                                  .sheet(isPresented: $showDailyWeather) {
+                                      DailyWeatherView(cityVM: cityVM)
+                                  }
+                        }
+                    
                 }
             }
         }
+        
     }
 }
 

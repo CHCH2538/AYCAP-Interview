@@ -10,7 +10,7 @@ import SwiftUI
 struct SearchBarView: View {
     
     @ObservedObject var cityVM: CityViewViewModel
-    
+
     @State private var searchTerm = "Bangkok"
     
     @State private var unit = "metric"
@@ -58,7 +58,7 @@ struct SearchBarView: View {
     }
 }
 
-struct MenuHeaderView_Previews: PreviewProvider {
+struct SearchBarView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

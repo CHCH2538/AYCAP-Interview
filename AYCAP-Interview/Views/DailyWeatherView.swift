@@ -12,16 +12,15 @@ struct DailyWeatherView: View {
     @ObservedObject var cityVM: CityViewViewModel
     
     var body: some View {
+        
         ScrollView(.vertical, showsIndicators: true) {
             VStack(spacing: 1) {
-                
                 Text("\(cityVM.city)")
                     .font(.largeTitle)
                     .bold()
                 
                 ForEach(cityVM.weather.daily.prefix(5)) { weather in
                     dailyCell(weather: weather)
-                    
                 }
             }
         }
