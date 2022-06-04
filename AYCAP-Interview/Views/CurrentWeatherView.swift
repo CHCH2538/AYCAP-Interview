@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct CurrentWeatherView: View {
     
     @ObservedObject var cityVM: CityViewViewModel
+    
     var body: some View {
         
         VStack(spacing: 20) {
@@ -21,7 +23,14 @@ struct CurrentWeatherView: View {
             
             Text("\(cityVM.conditions)")
                 .font(.title)
-    
+            
+            WebImage(url: URL(string: "\(cityVM.getIconFor(icon: cityVM.weatherIcon))")!)
+                .renderingMode(.original)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 50, height: 50)
+            
+            
+            
             HStack {
                 Text("\(cityVM.temperature)")
                     .font(.custom("SF Pro", size: 50))

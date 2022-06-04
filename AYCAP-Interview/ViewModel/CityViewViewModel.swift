@@ -52,7 +52,7 @@ final class CityViewViewModel: ObservableObject {
     
     var weatherIcon: String {
         if weather.current.weather.count > 0 {
-            return weather.current.weather[0].main
+            return weather.current.weather[0].icon
         }
         return ""
     }
@@ -89,7 +89,7 @@ final class CityViewViewModel: ObservableObject {
     }
     
     func getIconFor(icon: String) -> String {
-        return "http://openweathermap.org/img/w/\(icon).png"
+        return "https://openweathermap.org/img/w/\(icon).png"
     }
     
     private func getLocation() {

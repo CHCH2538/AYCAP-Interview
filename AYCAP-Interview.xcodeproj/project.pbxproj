@@ -27,6 +27,7 @@
 		F2E7F345284ACAF30043A821 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F344284ACAF30043A821 /* CurrentWeatherView.swift */; };
 		F2E7F347284ACC590043A821 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F346284ACC590043A821 /* DailyWeatherView.swift */; };
 		F2E7F34E284B1A0E0043A821 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = F2E7F34D284B1A0E0043A821 /* SwURL */; };
+		F2E7F351284B24F50043A821 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F2E7F350284B24F50043A821 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E7F351284B24F50043A821 /* SDWebImageSwiftUI in Frameworks */,
 				F2E7F34E284B1A0E0043A821 /* SwURL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +217,7 @@
 			name = "AYCAP-Interview";
 			packageProductDependencies = (
 				F2E7F34D284B1A0E0043A821 /* SwURL */,
+				F2E7F350284B24F50043A821 /* SDWebImageSwiftUI */,
 			);
 			productName = "AYCAP-Interview";
 			productReference = F2E7F2FF28497C310043A821 /* AYCAP-Interview.app */;
@@ -290,6 +293,7 @@
 			mainGroup = F2E7F2F628497C310043A821;
 			packageReferences = (
 				F2E7F34C284B1A0E0043A821 /* XCRemoteSwiftPackageReference "SwURL" */,
+				F2E7F34F284B24F50043A821 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = F2E7F30028497C310043A821 /* Products */;
 			projectDirPath = "";
@@ -681,6 +685,14 @@
 				minimumVersion = 0.4.1;
 			};
 		};
+		F2E7F34F284B24F50043A821 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -688,6 +700,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F2E7F34C284B1A0E0043A821 /* XCRemoteSwiftPackageReference "SwURL" */;
 			productName = SwURL;
+		};
+		F2E7F350284B24F50043A821 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2E7F34F284B24F50043A821 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
