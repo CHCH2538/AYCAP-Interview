@@ -20,7 +20,7 @@ Page 2
     - Not exactly TableView but very similar
     - Displayed exactly 5 days (can be edit to 7 days by deleting the .prefix(5) in DailyWeatherView.swift)
 
-#Additional Info
+# Additional Info
 
 I've declared (I think) all of the available variable in OneCall API in case the app needed an upgrade or expansion. Everything is ready to go with minimum to none adjustment to Models and Network stuff.
 
