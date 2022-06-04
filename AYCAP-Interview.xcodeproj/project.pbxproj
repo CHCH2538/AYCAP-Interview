@@ -26,6 +26,7 @@
 		F2E7F343284ACAAD0043A821 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F342284ACAAD0043A821 /* SearchBarView.swift */; };
 		F2E7F345284ACAF30043A821 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F344284ACAF30043A821 /* CurrentWeatherView.swift */; };
 		F2E7F347284ACC590043A821 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7F346284ACC590043A821 /* DailyWeatherView.swift */; };
+		F2E7F34E284B1A0E0043A821 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = F2E7F34D284B1A0E0043A821 /* SwURL */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E7F34E284B1A0E0043A821 /* SwURL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +213,9 @@
 			dependencies = (
 			);
 			name = "AYCAP-Interview";
+			packageProductDependencies = (
+				F2E7F34D284B1A0E0043A821 /* SwURL */,
+			);
 			productName = "AYCAP-Interview";
 			productReference = F2E7F2FF28497C310043A821 /* AYCAP-Interview.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +288,9 @@
 				Base,
 			);
 			mainGroup = F2E7F2F628497C310043A821;
+			packageReferences = (
+				F2E7F34C284B1A0E0043A821 /* XCRemoteSwiftPackageReference "SwURL" */,
+			);
 			productRefGroup = F2E7F30028497C310043A821 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -663,6 +671,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2E7F34C284B1A0E0043A821 /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2E7F34D284B1A0E0043A821 /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2E7F34C284B1A0E0043A821 /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2E7F2F728497C310043A821 /* Project object */;
 }

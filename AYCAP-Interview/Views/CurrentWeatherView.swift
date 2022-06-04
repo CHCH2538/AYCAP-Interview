@@ -29,12 +29,12 @@ struct CurrentWeatherView: View {
                 
                 switch cityVM.unit {
                 case "imperial":
-                    Text("F")
+                    Text("°F")
                         .font(.custom("SF Pro", size: 50))
                         .bold()
                     
                 default:
-                    Text("C")
+                    Text("°C")
                         .font(.custom("SF Pro", size: 50))
                         .bold()
                 }

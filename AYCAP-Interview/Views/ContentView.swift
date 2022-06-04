@@ -19,7 +19,7 @@ struct ContentView: View {
             ScrollView {
                 VStack(spacing: 70) {
                     SearchBarView(cityVM: cityVM)
-                        
+                    
                     CurrentWeatherView(cityVM: cityVM)
                 }
                 .padding(.top, 20)
@@ -31,7 +31,7 @@ struct ContentView: View {
                                   Button {
                                     showDailyWeather = true
                                   } label: {
-                                      Text("Daily Forecast")
+                                      Text("5 Days Forecast")
                                   }
                                   .sheet(isPresented: $showDailyWeather) {
                                       DailyWeatherView(cityVM: cityVM)

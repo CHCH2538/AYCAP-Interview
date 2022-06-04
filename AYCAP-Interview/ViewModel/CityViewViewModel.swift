@@ -50,6 +50,13 @@ final class CityViewViewModel: ObservableObject {
         return dateFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(weather.current.dt)))
     }
     
+    var weatherIcon: String {
+        if weather.current.weather.count > 0 {
+            return weather.current.weather[0].main
+        }
+        return ""
+    }
+    
     var temperature: String {
         return getTempFor(temp: weather.current.temp)
     }
@@ -79,6 +86,10 @@ final class CityViewViewModel: ObservableObject {
     
     func getHumidityFor(humidity: Int) -> String {
         return String(format: "%d%%", humidity)
+    }
+    
+    func getIconFor(icon: String) -> String {
+        return "http://openweathermap.org/img/w/\(icon).png"
     }
     
     private func getLocation() {
