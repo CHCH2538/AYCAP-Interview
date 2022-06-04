@@ -54,7 +54,6 @@ struct SearchBarView: View {
             }
             .buttonStyle(.bordered)
         }
-        
     }
 }
 

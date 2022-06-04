@@ -53,7 +53,6 @@ struct DailyWeatherView: View {
     }
 }
 
-
 struct TodayForcastView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
