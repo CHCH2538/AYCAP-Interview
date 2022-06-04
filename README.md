@@ -1,10 +1,10 @@
 # AYCAP-Interview : Weather App
 
-API : One Call API 1.0 (OpenWeather)
-Language : Swift
-Framework : SwiftUI (Due to time constraint)
-Package Manager : Xcode
-Dependency Used : SDWebImageSwiftUI
+- API : One Call API 1.0 (OpenWeather)
+- Language : Swift
+- Framework : SwiftUI (Due to time constraint)
+- Package Manager : Xcode
+- Dependency Used : SDWebImageSwiftUI
 
 # Requirement Check
 
